@@ -19,6 +19,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    @IBAction func gotoSecond(sender: AnyObject) {
+        let goToSecond = self.storyboard?.instantiateViewControllerWithIdentifier("SuttidaView") as! SuttidaViewController
+        
+        self.navigationController?.pushViewController(goToSecond, animated: true)
+        
+        
+    }
+    
 
 
 }

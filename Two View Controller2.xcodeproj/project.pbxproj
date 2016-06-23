@@ -14,6 +14,7 @@
 		08EA3D341D1B873100E18F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EA3D321D1B873100E18F73 /* LaunchScreen.storyboard */; };
 		08EA3D3F1D1B873100E18F73 /* Two_View_Controller2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3D3E1D1B873100E18F73 /* Two_View_Controller2Tests.swift */; };
 		08EA3D4A1D1B873100E18F73 /* Two_View_Controller2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3D491D1B873100E18F73 /* Two_View_Controller2UITests.swift */; };
+		08EA3D581D1B895000E18F73 /* SuttidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3D571D1B895000E18F73 /* SuttidaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		08EA3D451D1B873100E18F73 /* Two View Controller2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two View Controller2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EA3D491D1B873100E18F73 /* Two_View_Controller2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_View_Controller2UITests.swift; sourceTree = "<group>"; };
 		08EA3D4B1D1B873100E18F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EA3D571D1B895000E18F73 /* SuttidaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuttidaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				08EA3D291D1B873100E18F73 /* AppDelegate.swift */,
 				08EA3D2B1D1B873100E18F73 /* ViewController.swift */,
+				08EA3D571D1B895000E18F73 /* SuttidaViewController.swift */,
 				08EA3D2D1D1B873100E18F73 /* Main.storyboard */,
 				08EA3D301D1B873100E18F73 /* Assets.xcassets */,
 				08EA3D321D1B873100E18F73 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08EA3D2C1D1B873100E18F73 /* ViewController.swift in Sources */,
+				08EA3D581D1B895000E18F73 /* SuttidaViewController.swift in Sources */,
 				08EA3D2A1D1B873100E18F73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
